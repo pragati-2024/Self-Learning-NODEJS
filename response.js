@@ -1,7 +1,7 @@
 // understand server response
 const http = require('http')
 const server = http.createServer((req,res)=>{
-    res.setHeader("content-Type","text/html")
+    res.setHeader("Content-Type","text/html")
     // res.write("<h1> hello this is  pragati bansal </h1> <h2>")
     res.write(`<html>
         <head>
