@@ -5,3 +5,10 @@ const path = require('path');
 const file ="./text/reshu.txt"
 console.log(path.extname(file));
 
+// const myURL = new URL(req.url,`https://${req.headers.host}`)
+// const mypath = myURL.pathname;
+// const log = `${req.method} ${path} ${new Date().toISOString()}\n`
+
+// const myurl = new URL(req.url,`http://${req.headers.host}`)
+// const path = myurl.pathname;
+// const log = `${req.method} ${req.path} ${new Date().toISOString()}\n`
