@@ -12,3 +12,7 @@ console.log(path.extname(file));
 // const myurl = new URL(req.url,`http://${req.headers.host}`)
 // const path = myurl.pathname;
 // const log = `${req.method} ${req.path} ${new Date().toISOString()}\n`
+
+// const myurl = new url(req.url,`https://${req.headers.host}`)
+// const mypath= myurl.pathname
+// const log = `${req.method} ${req.path} ${new Date().toISOString()}\n`
