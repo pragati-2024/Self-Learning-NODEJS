@@ -1,9 +1,36 @@
 let userData = [{
-    name:'pragati bansal',
+    id:1,
+    name:"deepak",
+    password:123456,
     age:34,
-    email:'bpragati21@gmail.com'
-},{
-    name:'Panda',
-    age:12,
-    email:'lilyb21@gmail.com'
+    gender:"male"
+},
+{
+    id:2,
+    name:"PRAGATI",
+    password:123456,
+    age:19,
+    gender:"female"
+},
+{
+    id:3,
+    name:"Panda",
+    password:1234,
+    age:14,
+    gender:"female"
+},
+{
+    id:4,
+    name:"lily",
+    password:123,
+    age:3,
+    gender:"male"
+},
+{
+    id:5,
+    name:"deep",
+    password:1244255553636,
+    age:50,
+    gender:"male"
 }]
+module.exports=userData;
