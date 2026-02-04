@@ -64,6 +64,20 @@ app.put("/user", (req, res) => {
     user: users[index],
   });
 });
+app.delete('/user',(req,res)=>{
+  const id = req.params.id
+  const index = users.find((user)=>user.id===id)
+  if(index===-1){
+    return res.status(400),json({
+      message:"user not found"
+    })
+  }
+  const deleteduser = users.slice(index,1)
+  res.status(200).json({
+    message:"user deleted successfully",
+    user:deleteduser[0]
+  })
+})
 app.listen(port, () => {
   console.log(`serve is running at port ${port}`);
 });
