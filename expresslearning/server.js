@@ -13,6 +13,7 @@ app.get('/findinggender',(req,res)=>{
         }
         else{
             return "Mr"+user.name
+            
         }
     })
     res.json(gender)
